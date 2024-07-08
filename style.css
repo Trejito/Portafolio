@@ -1,0 +1,124 @@
+.navbar-brand{
+    margin-left: 2%;
+}
+.navbar{
+   
+    background-image: linear-gradient(to right, #ff9500, #fca311, #f4c806);
+}
+img{
+    width: 20%;
+    margin: 5%;
+    margin-bottom: 2px;
+    margin-left: 40%;
+    border-radius: 19px;
+}
+h2, h3{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.nombre{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.nav-items, .nav-link, .active{
+    color:#ffffff ;
+}
+.nav-items .nav-link .active:hover{
+    color: black;
+}
+.portafolio{
+    background-color: #fca311;
+    background-image: linear-gradient(to left, #ff9500, #fca311, #f4c806 );
+}
+.portafolio-title{
+    padding-top: 3% ;
+    color: white;
+}
+.portafolio-cont-img{
+    display:grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    grid-template-rows: 1fr;
+}
+.porftafolio-img{
+    width: 70%;
+    margin: 32%;
+    margin-top: 0;
+    transition: 0.5s;
+}
+.porftafolio-img:hover{
+    width: 90%;
+}
+.acerca{
+    height: auto ;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+.acerca-de-mi{
+    padding-top: 1.5%;
+    color: black;
+}
+p{
+    text-align: center;
+}
+.contacto{
+    height: auto;
+    background-color: #fca311;
+    margin-bottom: 1px;
+}
+.contacto-title{
+    padding-top: 1.5%;
+    color: white;
+}
+.contacto-form{
+    text-align: center;
+}
+input, textarea{
+    border-radius: 2px;
+    border: 1px solid white;
+}
+footer{
+    padding-top: 1%;
+    height: auto;
+    background-color: #fca311;
+}
+.sub{
+    padding-top: 0;
+    font-size: 20px;
+}
+.container-redes{
+    text-align: center;
+}
+.redes{
+    border-radius: 0%;
+    width: 60px;
+    margin: 1%;
+    margin-bottom: -4%;
+}
+.copyright{
+    padding-left: 13.5%;
+}
+.copyright-img{
+    width: 5%;
+}
+@media only screen and (max-width: 548px){
+    .portafolio-cont-img{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1 1fr;
+        grid-template-columns: 0.3fr ;
+        width: 250%;
+    }
+    .portafolio{
+        width: 100%;
+    }
+}
+/*.portafolio-cont-img{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    margin-left: -20%;
+    padding: 0;
+
+}
